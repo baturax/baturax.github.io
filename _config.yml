@@ -6,19 +6,21 @@ timezone: Europe/Istanbul
 
 title: Batu
 
-tagline:  # it will display as the sub-title.
+tagline:
 
-description: >- # used by seo meta and the atom feed
-  Kendi halinde gelişmeye çalışan biri.
+description: >-
+  bai
 
-url: "https://muzik.baturax.com.tr"
+url: "baturax.com"
 
 github:
   username: baturax
 
+keep_files: [ads.txt]
+
 social:
   name: Batu
-  email: 
+  email:
   links:
     - https://github.com/baturax
 
@@ -28,7 +30,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 
+  id:
 
 theme_mode: dark
 
