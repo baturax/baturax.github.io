@@ -1,102 +1,16 @@
 <!doctype html>
 <html lang="tr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Batu | Portfolyo</title>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
-
-    <style>
-      body {
-        background-image: url("./assets/bg.jpg");
-        background-size: cover;
-        min-height: 100vh;
-        background-position: center;
-        color: white;
-        font-family: sans-serif;
-      }
-
-      .social-box {
-        width: 50%;
-        margin: 40px auto;
-        border-radius: 10px;
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.03);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      }
-
-      .list-group-item {
-        background-color: rgba(255, 255, 255, 0.05);
-        border: none;
-        transition: background-color 0.3s ease;
-      }
-
-      .list-group-item a {
-        text-decoration: none;
-        color: white;
-        display: block;
-        font-size: 16px;
-      }
-
-      .list-group-item:hover {
-        background-color: rgba(255, 255, 255, 0.15);
-      }
-
-      .list-group-item a:hover {
-        color: #00bfff;
-      }
-
-      img.img-circle {
-        width: 150px;
-        border: 3px solid white;
-        margin-bottom: 20px;
-      }
-
-      h1 {
-        margin-top: 0;
-        font-weight: bold;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./public/izmiricon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İzmir</title>
   </head>
-
   <body>
-    <div class="text-center">
-      <br />
-      <img
-        src="./assets/avatar.jpg"
-        alt="Bai"
-        class="img-circle"
-      />
-      <h1>Batu</h1>
-      <pre>I lost my brain because of linux kernel</pre>
-    </div>
-
-    <div class="social-box">
-      <ul class="list-group">
-        <li class="list-group-item">
-          <a href="https://github.com/baturax" target="_blank">
-            <i class="bi bi-github" style="font-size: 1.2em"></i> GitHub
-          </a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://baturax.com" target="_blank">
-            <i class="bi bi-linkedin" style="font-size: 1.2em"></i> LinkedIn
-          </a>
-        </li>
-        <li class="list-group-item">
-          <a href="mailto:bai@baturax.com">
-            <i class="bi bi-envelope-fill" style="font-size: 1.2em"></i> E-posta
-          </a>
-        </li>
-      </ul>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+		<noscript>
+			<h1>Lütfen JavaScript'e izin verin</h1>
+		</noscript>
   </body>
 </html>
